@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 116px;
+    font-family: 'Montserrat';
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 3;
+}
+
+.container1 {
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 116px;
+}
+
+.navigation {
+    font-size: 10px;
+    display: flex;
+    width: 372px;
+    justify-content: space-between;
+}
+
+nav a {
+    cursor: pointer;
+}
+
+.icons {
+    cursor: pointer;
+}
+
+h4 {
+    color: #1C2A39;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+a {
+    text-transform: uppercase;
+    color: #5C6A79;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.main {
+    font-weight: 900;
+    color: #1C2A39;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 121px;
+}
+
+.purchase {
+    position: relative;
+    padding-right: 5px;
+}
+
+.countBook {
+    background-color: #FF353A;
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+    font-size: 10px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.first {
+    padding-top: 116px;
+}
+
+/* СЛАЙДЕР */
+
+.slider {
+    margin: 0 auto;
+    max-width: 1120px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-line {
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.people {
+    width: 100%;
+}
+
+.topBooks {
+    width: 100%;
+}
+
+.checkOut {
+    width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1120px;
+    width: 100%;
+    position: relative;
+}
+
+/* КОНЕЦ СЛАЙДЕРА */
+
+.change {
+    background: #9E98DC;
+    width:149px;
+    height:204px;
+    position: absolute;
+    right: -85px;
+    top: 80px;
+    display: block;
+    color: #1C2A39;
+}
+
+.arrow {
+    width: 60px;
+    height: 12px;
+    padding-top: 5px;
+    padding-left: 17px;
+}
+
+.top100 {
+    width: 137px;
+    height: 273px ;
+    background: #FF8FE6;
+    position: absolute;
+    right: -160px;
+    bottom: 70px;
+    display: block;
+    color: #1C2A39;
+}
+
+.textOld {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin: 102px 20px 0px 20px;
+}
+
+.textTop {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin: 149px 20px 0px 20px;
+}
+
+.allDots {
+    justify-content: center;
+    margin-top: 17px;
+    display: flex;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #EFEEF6;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #9E98DC;
+}
+
+.ellipse1 {
+    width: 12px;
+    height: 12px;
+}
+
+.ellipse2 {
+    width: 12px;
+    height: 12px;
+}
+
+.ellipse3 {
+    width: 12px;
+    height: 12px;
+}
+
+/* SECTION SECOND */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    padding-top: 70px;
+    margin-left: -50px;
+    
+}
+
+.second {
+    position: relative;
+    margin-top: 134px;
+    display: flex;
+}
+
+.list {
+    z-index: 0;
+    flex-basis: 416px;
+    flex-shrink: 0;
+    height: 710px;
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    background: #EFEEF6;
+    font-family: 'Montserrat';
+    color: #5C6A79;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+li {
+    padding: 10px 10px 10px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.book {
+    display: flex;
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 89px;
+}
+
+.active1 {
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+color: #1C2A39;
+}
+
+.booklist {
+    display: inline-block;
+}
+
+.bookInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 36px;
+}
+
+.img1 {
+    width: 212px;
+    height: 300px;
+}
+
+.p1 {
+    font-family: 'Open Sans';
+    font-size: 10px;
+    font-weight: 400;
+    color: #5C6A79;
+    margin-bottom: 4px;
+}
+
+.p2 {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.rate1 {
+    width: 121px;
+    height: 14px;
+    margin-bottom: 16px;
+}
+
+.p3 {
+    font-family: 'Open Sans';
+    color: #5C6A79;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    max-height: 40px;
+    overflow: hidden;
+}
+
+.p4 {
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 700;
+    color: #1C2A39;
+    margin-bottom: 16px;
+}
+
+.button1 {
+    width: 176px;
+    height: 45px;
+    top: 200px;
+    left: 248px;
+    border: 1px solid #4c3db2;
+    font-size: 8px;
+    font-weight: 700;
+    color: #4C3DB2;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.button2 {
+    width: 176px;
+    height: 45px;
+    top: 200px;
+    left: 248px;
+    border: 1px solid #EEEDF5;
+    font-size: 8px;
+    font-weight: 700;
+    color:#5C6A79;
+    background-color: #ffffff;
+}
+
+.load {
+    display: block;
+    width: 176px;
+    height: 45px;
+    border: 1px solid #4c3db2;
+    font-size: 8px;
+    font-weight: 700;
+    color: #4C3DB2;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .change, .top100 {
+        position: static;
+        display: inline-block;
+        width: 40%;
+        /* height: 150px; */
+    }
+
+    .textOld, .textTop {
+        margin: 20px 20px 20px 20px;
+    }
+
+    .top100 {
+        margin-top: 30px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .list {
+        width: 100%;
+        position: static;
+    }
+    .container {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .book {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    header {
+        flex-direction: column;
+    }
+
+    .navigation {
+        width: 100%;
+    }
+}

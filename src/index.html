@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <h4>Bookshop</h4>
+            <nav class="navigation">
+                <a class="main">books</a>
+                <a>audiobooks</a>
+                <a>Stationery & gifts</a>
+                <a>blog</a>
+            </nav>
+            <div class="icons">
+                <img src="image/user.svg">
+                <img src="image/search.svg">
+                <div class="purchase">
+                    <div class="countBook">0</div>
+                    <img src="image/shop bag.svg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="first">
+        <div class="wrapper">
+            <div class="slider">
+                <div class="slider-line">
+                    <img class="people" src="image/banner2.png">
+                    <img class="topBooks" src="image/banner 3.png">
+                    <img class="checkOut" src="image/banner 4.png">
+                </div>
+            </div>
+            <div class="allDots">
+                <span class="ellipse1 dot active" ></span>
+                <span class="ellipse2 dot"></span>
+                <span class="ellipse3 dot"></span>
+            </div>
+            <a class="change">
+                <p class="textOld">Change<br>old book<br>on new</p>
+                <img class="arrow" src="image/arrow.svg">
+            </a>
+            <a class="top100">
+                <p class="textTop">TOP<br>100<br>BOOKS<br>2022</p>
+                <img class="arrow" src="image/arrow.svg">
+            </a>
+        </div>
+    </section>
+    <section class="second">
+        <div class="list">
+            <ul class="booklist">
+                <li class="active1" style="padding-top: 70px;" id="Architecture">Architecture</li>
+                <li id="Art">Art & Fashion</li>
+                <li id="Biography">Biography</li>
+                <li id="Business">Business</li>
+                <li id="Crafts">Crafts & Hobbies</li>
+                <li id="Drama">Drama</li>
+                <li id="Fiction">Fiction</li>
+                <li id="Food">Food & Drink</li>
+                <li id="Health">Health & Wellbeing</li>
+                <li id="History">History & Politics</li>
+                <li id="Humor">Humor</li>
+                <li id="Poetry">Poetry</li>
+                <li id="Psychology">Psychology</li>
+                <li id="Science">Science</li>
+                <li id="Technology">Technology</li>
+                <li id="Travel">Travel & Maps</li>
+            </ul>
+        </div>
+        <div class="container">
+            <!-- <div class="book">
+                <img class="img1" src="image/book1.png">
+                <div class="bookInfo">
+                    <p class="p1">Kevin Kwan</p>
+                    <p class="p2">Crazy rich asians</p>
+                    <img class="rate1" src="image/rating.svg">
+                    <p class="p3">The outrageously Funny Debut Novel<br> About Three Super-Rich, 
+                    Pedigreed <br>Chinese Families And The Gossip...</p>
+                    <p class="p4">$4.99</p>
+                    <button class="button1">BUY NOW</button> 
+                </div>
+            </div>
+
+            <div class="book">
+                <img class="img1" src="image/book2.png">
+                <div class="bookInfo">
+                    <p class="p1">Margaret Atwood</p>
+                    <p class="p2">The handmaid’s tale</p>
+                    <img class="rate1" src="image/rating (1).svg">
+                    <p class="p3">This Novel Can Be Interpreted As A <br>Double Narrative, Offred's Tale And <br>The Handmaids' Tales. The Night...</p>
+                    <p class="p4">$6.99</p>
+                    <button class="button2">IN THE CART</button>
+                </div> 
+            </div>
+            <div class="book">
+                <img class="img1" src="image/book3.png">
+                <div class="bookInfo">
+                    <p class="p1">Aldous Huxley</p>
+                    <p class="p2">Brave new world</p>
+                    <img class="rate1" src="image/rating (3).svg">
+                    <p class="p3">Dystopian Novel Written In 1931 By <br>English Author Aldous Huxley, And <br>Published In 1932. Largely Set In...</p>
+                    <p class="p4">$12.43</p>
+                    <button class="button1">BUY NOW</button> 
+                </div>
+            </div>
+            <div class="book">
+                <img class="img1" src="image/book4.png">
+                <div class="bookInfo">
+                    <p class="p1">Tara Westover</p>
+                    <p class="p2">Educated</p>
+                    <img class="rate1" src="image/rating (4).svg">
+                    <p class="p3">It Is A Tale Of Fierce Family Loyalty <br>And Of The Grief That Comes With <br>Severing The Closest Of Ties. With...</p>
+                    <p class="p4">$12.43</p>
+                    <button class="button1">BUY NOW</button> 
+                </div>
+            </div>
+            <div class="book">
+                <img class="img1" src="image/book5.png">
+                <div class="bookInfo">
+                    <p class="p1">Marianne Fritz</p>
+                    <p class="p2">The weight of things</p>
+                    <img class="rate1" src="image/rating (5).svg">
+                    <p class="p3">You Discover Not An Eccentric Fluke <br>Of Literary Nature But Rather A <br>Brilliant And Masterful Satiris...</p>
+                    <p class="p4">$18.23</p>
+                    <button class="button1">BUY NOW</button> 
+                </div>
+            </div>
+            <div class="book">
+                <img class="img1" src="image/book6.png">
+                <div class="bookInfo">
+                    <p class="p1">Chris Power</p>
+                    <p class="p2">Mothers stories</p>
+                    <img class="rate1" src="image/rating (6).svg">
+                    <p class="p3">The Stories In Mothers Lay Bare The Emotional And Psychic Damage Of Life, Love, And Abandonment...</p>
+                    <p class="p4">$12.35</p>
+                    <button class="button1">BUY NOW</button> 
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <button class="load">LOAD MORE</button>
+    <template id="template">
+        <div class="book">
+            <img class="img1" src="image/book6.png">
+            <div class="bookInfo">
+                <p class="p1"></p>
+                <p class="p2"></p>
+                <img class="rate1" src="image/rating (6).svg">
+                <p class="p3"></p>
+                <p class="p4"></p>
+                <button class="button1">BUY NOW</button> 
+            </div>
+        </div>
+    </template>
+    <script src="../dist/bundle.js"></script>
+</body>
+</html>
